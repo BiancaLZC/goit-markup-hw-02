@@ -6,3 +6,62 @@
     --primery-font: "Roboto" sans-serif;
     --secondary-font: "Raleway" sans-serif;
 }
+
+body{
+    font-family:var(--primery-font) ;
+}
+
+*/ Header section style */
+
+.header__name a {
+    text-decoration: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color:var(--black)
+} 
+
+.header__navigation li {
+    list-style: none;
+}
+
+.header__info a  {
+    list-style: none;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color:var(--light-black)
+}
+
+.header__navigation a:hover {
+    color:var(--blue)
+}
+
+.header__navigation a:focus {
+    color: var(--blue)
+}
+
+.header__info li {
+    list-style: none;
+}
+
+
+*/ Hero section style */
+
+.hero-section {
+    background-color: #2F303A;
+}
+
+.hero.section__title {
+    color:var(--white)
+
+}
