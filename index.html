@@ -9,7 +9,7 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet">
-      <link rel="stylesheet" href="./css/style.css"/>
+   <link rel="stylesheet" href="./css/style.css"/>
  </head>
  <body>
     <!--Header Section-->
@@ -26,20 +26,22 @@
       </nav>
       <ul class="header__info">
          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a href="tel:+1 212-772-4150"> +1 212-772-4150</a></li>
+         <li><a href="tel:+1 212-772-4150"> +1212-772-4150</a></li>
       </ul>
       </header>
     <!--Main Section-->
     <main>
       <!--Hero Section-->
       <section class="hero-section">
-            <h1 class="hero-section__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button class="hero-section__request-service" type="button">Request our service</button>
+         <div class="hero-section__title">
+            <h1 >EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button class="hero-section__request-service button-blue" type="button">Request our service</button>
+            </div>
       </section>
 
       <!--About Section-->
-      <section>
-         <ul>
+      <section class="about-section">
+         <ul class="about-section__requirements">
             <li>
                <h5>ATTENTION TO DETAILS</h5>
                <p>We go into all the details and processes<br> of your business to
@@ -64,10 +66,10 @@
          </section> 
 
          <!--What we do Section-->
-         <section>
+         <section class="what-we-do">
                <h2>What we do</h2>
          <!--Div cu imagini-->
-         <div>
+         <div class="what-we-do__exemple-img">
             <img src="./images/box-1.jpg" alt="laptop img" width="100"/>
             <img src="./images/box-2.jpg" alt="phone img" width="100"/>
             <img src="./images/box-3.jpg" alt="laptop img" width="100"/>
@@ -75,9 +77,8 @@
          </section>
 
          <!--Team section-->
-         <section> 
+         <section class="team"> 
                <h2>Our Team</h2> 
-         </section>
             <!--Container  cu imagini despre echipa-->
               <!--Container 1-->
             <div>
@@ -103,12 +104,13 @@
                <h5>Tyler Moore</h5>
                <p>UI Designer</p>
                </div>
+               </section>
       </main>
             <!--Footer Section-->
-         <footer>
+         <footer class="footer-section">
             <!--Info Section-->
                <a href="#"><p><span>Web</span>Studio</p></a>
-            <address>
+            <address class="footer-section__info">
              695 Park Ave, NY 10065, USA<br>
              info@devstudio.com<br>
              +1 212-772-4150
