@@ -38,12 +38,18 @@ body {
   text-align: left;
   color: var(--black);
 }
+.header__navigation a:hover {
+  color: var(--blue);
+}
 
+.header__navigation a:focus {
+  color: var(--blue);
+}
 .header__navigation li {
   list-style: none;
 }
 
-.header__info a:hover {
+.header__info a {
   list-style: none;
   text-decoration: none;
   font-size: 14px;
@@ -52,15 +58,9 @@ body {
   text-align: left;
   color: var(--light-black);
 }
-
-.header__navigation a:hover {
+.header__info a:hover {
   color: var(--blue);
 }
-
-.header__navigation a:focus {
-  color: var(--blue);
-}
-
 .header__info li {
   list-style: none;
 }
